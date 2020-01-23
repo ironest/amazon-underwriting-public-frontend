@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Childcare from "./pages/Childcare";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./../styles/App.css";
 import NavBar from "./NavBar";
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 class App extends Component {
     render() {

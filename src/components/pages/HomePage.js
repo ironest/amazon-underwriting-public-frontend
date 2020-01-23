@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import axios from "axios";
+// import { render } from "react-dom";
+
+import Carousel from "./../Carousel";
+
 
 class HomePage extends Component {
 
@@ -27,7 +31,8 @@ class HomePage extends Component {
             <>
             <div className="content" >
                 <h1>HomePage</h1>
-            <div className="carousel">Carousel to go here</div>
+            {/* <div className="carousel">Carousel to go here</div> */}
+                <Carousel />
                 <div className="textDiv" >
                     <p>	
                     Amazon Underwriting is a privately owned underwriting agency focussed on delivering insurance packages tailored for specific niche markets.

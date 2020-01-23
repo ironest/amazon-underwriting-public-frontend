@@ -41,14 +41,9 @@ h1 {
     color: whitesmoke;
 }
 
-.carousel {
-    border: 3px ridge black;
-    background-color: whitesmoke;
-    height: 100px;
-    width: 400px;
-    margin: 0 auto;
+.carousel-slider {
+    text-align: center;
 }
-
 .footer {
     
     display: flex;
