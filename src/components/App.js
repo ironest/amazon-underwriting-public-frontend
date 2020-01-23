@@ -1,18 +1,23 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Childcare from "./pages/Childcare";
-import "./../styles/App.css"
+import "./../styles/App.css";
+import NavBar from "./NavBar";
+import Footer from "./Footer"
 
 class App extends Component {
     render() {
         return (
             <BrowserRouter>
                 <div>
-                    <Switch>
+                <div className="bannerDiv" ></div>
+                   <NavBar />
+                    {/* <Switch> */}
                         <Route exact path="/" component={HomePage} />
                         <Route exact path="/Childcare" component={Childcare} />
-                    </Switch>
+                    {/* </Switch> */}
+                    <Footer />
                 </div>
             </BrowserRouter>
         )
