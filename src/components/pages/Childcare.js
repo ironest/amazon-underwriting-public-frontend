@@ -1,17 +1,14 @@
 import React, { Component } from "react";
-import NavBar from "./../NavBar";
-import Footer from "./../Footer";
 
 class Childcare extends Component {
     render() {
         return (
             <>
-                <div className="bannerDiv" ></div>
-
-                <NavBar />
-                
+            <div className="content">
                 <h1>Childcare</h1>
-                <div className="textDiv" >
+                {/* <div className="textDiv" > */}
+                <div className="cardA">
+                    <div className="textDiv">
                     <p>
                     Amazon Underwriting offers a childcare insurance package developed by Gida Irving who has many years’ experience working in the childcare sector and the insurance industry. Utilising this in-depth knowledge, the Amazon Underwriting Childcare Insurance Package offers some unique and important coverage features truly tailored for the Childcare Sector.
                     </p>
@@ -36,6 +33,8 @@ class Childcare extends Component {
                         </li>
                     </ol>
                     </div>
+                    </div>
+                    </div>
                     <div>
                         <h3>Target Childcare Operators</h3>
                         <ul>
@@ -58,9 +57,7 @@ class Childcare extends Component {
                         <h3>Claims Management</h3>
                         <p>All claims are managed locally through award winning claims managers Gallagher Bassett.</p>
                     </div>
-                    
                 </div>
-                <Footer />
             </>
         );
     }
