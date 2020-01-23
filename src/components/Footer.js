@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 class Footer extends Component {
     render() {
         return(
-            <footer id="footer" >
+            <footer className="footer" >
                 <div className="toLeft" >
                 <link to="/" component={HomePage}></link>
                 <p>52 Chisholm Street, Darlinghurst NSW 2010</p>
