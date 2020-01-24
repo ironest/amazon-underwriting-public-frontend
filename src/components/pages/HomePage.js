@@ -33,7 +33,7 @@ class HomePage extends Component {
                 <h1>HomePage</h1>
             {/* <div className="carousel">Carousel to go here</div> */}
                 <Carousel />
-                <div className="textDiv" >
+                <div className="text-div" >
                     <p>	
                     Amazon Underwriting is a privately owned underwriting agency focussed on delivering insurance packages tailored for specific niche markets.
                     </p>

@@ -26,16 +26,16 @@ h1 {
     text-align: center;
 }
 
-.textDiv {
+.text-div {
     margin: 0 15%;
 }
 
-.NavDiv {
+.nav-div {
     background-color: #1c2938;
     height: 50px;
 }
 
-.NavDiv button {
+.nav-div button {
     background-color: #1c2938;
     height: 50px;
     color: whitesmoke;
@@ -67,19 +67,19 @@ h1 {
     display: flex;
     flex-direction: column;
 } */
-.toLeft {
+.to-left {
     width: fit-content;
     margin-left: 5px;
     /* justify-content: flex-start; */
 
 }
-.toRight {
+.to-right {
     width: fit-content;
     text-align: right;
     margin-right: 5px;
 }
 
-.cardA {
+.card-a {
     background-color: silver;
     width: 100%;
 }

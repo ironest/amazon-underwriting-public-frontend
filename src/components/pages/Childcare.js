@@ -7,7 +7,7 @@ class Childcare extends Component {
             <div className="content">
                 <h1>Childcare</h1>
                 {/* <div className="textDiv" > */}
-                <div className="cardA">
+                <div className="card-a">
                     <div className="textDiv">
                     <p>
                     Amazon Underwriting offers a childcare insurance package developed by Gida Irving who has many years’ experience working in the childcare sector and the insurance industry. Utilising this in-depth knowledge, the Amazon Underwriting Childcare Insurance Package offers some unique and important coverage features truly tailored for the Childcare Sector.
