@@ -17,7 +17,7 @@ body {
     min-height: calc(100vh - 70px);
 }
 
-.bannerDiv {
+.banner-div {
     background-color: #b61615;
     height: 50px;
 }
