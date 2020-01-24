@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from "react-router-dom"
 import HomePage from "./pages/HomePage";
 
 class Footer extends Component {
@@ -6,7 +7,7 @@ class Footer extends Component {
         return(
             <footer className="footer" >
                 <div className="to-left" >
-                <link to="/" component={HomePage}></link>
+                <Link to="/">This is a link to the homepage</Link>
                 <p>52 Chisholm Street, Darlinghurst NSW 2010</p>
                 <p>AFSL 482029  |  ABN 17 605 879 507</p>
                 </div>

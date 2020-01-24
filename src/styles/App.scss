@@ -22,7 +22,7 @@
   .container {
     min-width: 325px;
     padding: 0 25px;
-    max-width: 800px;
+    max-width: 60%;
     margin: 60px auto;
   
     h1 {
@@ -58,9 +58,13 @@
 
 .document-box {
   height: fit-content;
-  width: fit-content;
-  position: relative;
-  float: right;
+  width: 18%;
+  // max-width: calc((100vw - 800)/2);
+  min-width: 10%;
+  // (screen size - 850px)/2
+  position: absolute;
+  margin-top: 30px;
+  right: 0;
   margin-right: 10px;
   border: 2px ridge black;
   background-color: slategrey;
@@ -69,4 +73,8 @@
 .document-box ul {
   text-align: left;
   padding-inline-start: 15px;
+}
+
+.text-fix {
+  margin-right: 10%;
 }
