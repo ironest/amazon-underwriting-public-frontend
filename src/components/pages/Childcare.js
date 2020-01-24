@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import DocumentBox from "./../DocumentBox";
 
 class Childcare extends Component {
     render() {
@@ -6,6 +7,15 @@ class Childcare extends Component {
             <>
             <div className="content">
                 <h1>Childcare</h1>
+                {/* <div className="document-box" >
+                    <h3>Document Box</h3>
+                    <ul>
+                        <li>one</li>
+                        <li>two</li>
+                        <li>three</li>
+                    </ul>
+                </div> */}
+                <DocumentBox />
                 {/* <div className="text-div" > */}
                 <div className="card-a">
                     <div className="text-div">

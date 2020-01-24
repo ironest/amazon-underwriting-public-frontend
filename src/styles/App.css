@@ -88,3 +88,18 @@ h1 {
     background-color: silver;
     width: 100%;
 }
+
+.document-box {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    border: 2px ridge black;
+    background-color: slategrey;
+    padding: 5px;
+}
+.document-box ul {
+    text-align: left;
+    padding-inline-start: 15px;
+}
