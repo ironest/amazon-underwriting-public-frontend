@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Childcare from "./pages/Childcare";
+import "normalize.css";
 import "./../styles/App.css";
 import NavBar from "./NavBar";
 import Footer from "./Footer"
