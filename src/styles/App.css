@@ -41,9 +41,13 @@ h1 {
     color: whitesmoke;
 }
 
-.carousel-slider {
-    text-align: center;
+.carousel .slider-wrapper {
+    /* height: 150px; */
+    width: 500px;
 }
+
+
+
 .footer {
     
     display: flex;
@@ -82,4 +86,9 @@ h1 {
 .card-a {
     background-color: silver;
     width: 100%;
+}
+
+.example-div {
+    width: 200px;
+    background-color: blue;
 }

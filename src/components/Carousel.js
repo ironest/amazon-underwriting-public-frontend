@@ -3,11 +3,10 @@ import { Carousel } from "react-responsive-carousel";
 
 export default () => (
     <div className="carousel" >
-  <Carousel dynamicHeight={true} infiniteLoop autoPlay swipeable={true} stopOnHover={true} emulateTouch >
+  <Carousel dynamicHeight={true} infiniteLoop autoPlay swipeable={true} stopOnHover={true} emulateTouch showThumbs={false} >
     <div>
       <img src="http://lorempixel.com/output/cats-q-c-640-480-1.jpg" alt="" />
       <p className="legend">Legend 1</p>
-      <link></link>
     </div>
     <div>
       <img src="http://lorempixel.com/output/cats-q-c-640-480-2.jpg" alt="" />
