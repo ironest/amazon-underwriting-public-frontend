@@ -8,7 +8,7 @@ class NavBar extends Component {
                 <Link to="/">
                     <button>HomePage</button>
                 </Link>
-                <Link to="/Childcare">
+                <Link to="/childcare">
                     <button>Childcare</button>
                 </Link>
             </div>
