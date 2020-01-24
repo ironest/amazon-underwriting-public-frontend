@@ -11,7 +11,7 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <div>
-                <div className="bannerDiv" ></div>
+                <div className="banner-div" ></div>
                    <NavBar />
                     {/* <Switch> */}
                         <Route exact path="/" component={HomePage} />
