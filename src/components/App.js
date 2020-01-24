@@ -3,7 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Childcare from "./pages/Childcare";
 import "normalize.css";
-import "./../styles/App.css";
+import "./../styles/App.scss";
 import NavBar from "./NavBar";
 import Footer from "./Footer"
 
@@ -11,15 +11,13 @@ class App extends Component {
     render() {
         return (
             <BrowserRouter>
-                <div>
-                <div className="banner-div" ></div>
-                   <NavBar />
-                    {/* <Switch> */}
-                        <Route exact path="/" component={HomePage} />
-                        <Route exact path="/Childcare" component={Childcare} />
-                    {/* </Switch> */}
-                    <Footer />
+                <div className="content">
+                    <div className="banner-div"></div>
+                    <NavBar />
+                    <Route exact path="/" component={HomePage} />
+                    <Route exact path="/childcare" component={Childcare} />
                 </div>
+                <Footer />
             </BrowserRouter>
         )
     }
