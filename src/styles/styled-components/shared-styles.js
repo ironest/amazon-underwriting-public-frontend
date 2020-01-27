@@ -25,6 +25,7 @@ export const Text = styled.p`
     size: 10px;
 `;
 
-export const BlackText = styled(Text)`
-    color: black;
+export const Heading = styled(Text)`
+    color: white;
+    size: 20px;
 `;

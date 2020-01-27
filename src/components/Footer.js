@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import HomePage from "./pages/HomePage";
 
-import {Footerstyle, CustomComponent} from "../styles/styled-components"
+import {Footerstyle} from "../styles/styled-components"
 
 class Footer extends Component {
     render() {
         return(
             <Footerstyle >
-                <CustomComponent>Hello</CustomComponent>
                 <div className="to-left" >
                 <link to="/" component={HomePage}></link>
                 <p>52 Chisholm Street, Darlinghurst NSW 2010</p>
