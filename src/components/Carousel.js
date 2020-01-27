@@ -9,6 +9,7 @@ import CarouselOne from "./shared/CarouselOne";
 export default () => (
     <div className="carousel" >
   <Carousel dynamicHeight={true} infiniteLoop={false} autoPlay={false} swipeable={true} stopOnHover={true} emulateTouch showThumbs={false} >
+    
     <CarouselOne legendContent={<a href="/home" >link</a>}></CarouselOne>
 
     <div>
@@ -16,7 +17,7 @@ export default () => (
       <h1>DOes this work?</h1>
       <p className="legend">other thing</p>
 
-      <a href="http://www.google.com" target="_blank"> link</a>
+      <a href="http://www.google.com" rel="noopener noreferrer" target="_blank"> link</a>
     </div>
     <div>
       <img src="http://lorempixel.com/output/cats-q-c-640-480-3.jpg" alt="" />

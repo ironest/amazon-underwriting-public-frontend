@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+
+// styling for common elements
 export const CustomComponent = styled.div`
     background-color: blue;
     height: 150px;
@@ -19,13 +21,22 @@ export const Footerstyle = styled.div`
     right: 0;
 `;
 
-// generic text styling for whole site.
+// styling for carousel.
 export const Text = styled.p`
     color: white;
-    size: 10px;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10px;
 `;
 
-export const Heading = styled(Text)`
+export const Heading = styled.h2`
     color: white;
-    size: 20px;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 100px;
 `;
+export const Link = styled.a`
+    text-align: left;
+    // margin-left: 10px;
+`
