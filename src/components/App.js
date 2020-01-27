@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Childcare from "./pages/Childcare";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -14,10 +14,11 @@ class App extends Component {
                 <div>
                 <div className="banner-div" ></div>
                    <NavBar />
-                    {/* <Switch> */}
+                    <Switch>
                         <Route exact path="/" component={HomePage} />
                         <Route exact path="/Childcare" component={Childcare} />
-                    {/* </Switch> */}
+                        {/* <Route path='*' exact component={GenericNotFound} /> */}
+                    </Switch>
                     <Footer />
                 </div>
             </BrowserRouter>
