@@ -1,25 +1,24 @@
-// import React from "react"
-// import styled from "styled-components"
+import React from "react"
+import styled from "styled-components"
 
-// import {Text, Heading} from "../../styles/styled-components"
+import {Text, Heading, Link } from "../../styles/styled-components"
 
-// function CarouselOne (props){
-//     const {legendContent = ""} = props;
+function CarouselTwo (props){
     
-//     return (
-//         <div>
-//             {props.children}
-//             <Heading>Newsletter example 1</Heading>
-//             <Text>text about the Newsletter</Text>
-//             <div className="legend">{legendContent}</div>
-//         </div>
-//     )
-// }
+    return (
+        <div>
+            {props.children}
+            <Heading>Newsletter example 2</Heading>
+            <Text>text about the Newsletter</Text>
+            <button><Link href="http://google.com">Link here</Link></button>
+        </div>
+    )
+}
 
-// const StyledCarouselOne = styled(CarouselOne)`
-//     background-color: blue; 
-//     height: 100%;
-// `;
+const StyledCarouselTwo = styled(CarouselTwo)`
+    background-color: blue; 
+    height: 100%;
+`;
 
 
-// export default StyledCarouselOne;
+export default StyledCarouselTwo;

@@ -38,5 +38,9 @@ export const Heading = styled.h2`
 `;
 export const Link = styled.a`
     text-align: left;
-    // margin-left: 10px;
+    
+`
+
+export const BackgroundColor = styled.div`
+    background-color: blue;
 `

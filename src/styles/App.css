@@ -93,6 +93,12 @@ h1 {
     background-color: blue;
 }
 
-.slide.selected {
-    background-color: pink;
+/* controls the background colour of the slides overall, as they are changed */
+.carousel .slide {
+    background: blue;
 }
+
+/* changes the colour of specific slides as they are shown */
+/* .slide.selected {
+    background-color: pink;
+} */

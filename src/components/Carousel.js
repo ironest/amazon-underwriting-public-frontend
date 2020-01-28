@@ -1,6 +1,8 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import CarouselOne from "./shared/CarouselOne";
+// import {CarouselOne, CarouselTwo} from "./shared";
+import StyledCarouselOne from "./shared/CarouselOne";
+import CarouselTwo from "./shared/CarouselTwo";
 
 // const onLinkClick = () => {
 //   history.push("/accounts")
@@ -8,13 +10,14 @@ import CarouselOne from "./shared/CarouselOne";
 
 export default () => (
     <div className="carousel" >
-  <Carousel dynamicHeight={true} infiniteLoop={false} autoPlay={false} swipeable={true} stopOnHover={true} emulateTouch showThumbs={false} >
+    <Carousel dynamicHeight={true} infiniteLoop={false} autoPlay={false} swipeable={true} stopOnHover={true} emulateTouch showThumbs={false} >
     
-    <CarouselOne legendContent={<a href="/home" >link</a>}></CarouselOne>
+    <StyledCarouselOne legendContent={<a href="/home" >link</a>}></StyledCarouselOne>
+    <CarouselTwo ></CarouselTwo>
 
     <div>
       {/* <img src="http://lorempixel.com/output/cats-q-c-640-480-2.jpg" alt="" /> */}
-      <h1>DOes this work?</h1>
+      <h1>Does this work?</h1>
       <p className="legend">other thing</p>
 
       <a href="http://www.google.com" rel="noopener noreferrer" target="_blank"> link</a>
