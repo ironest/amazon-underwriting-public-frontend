@@ -29,4 +29,4 @@ class ContactForm extends Component {
     }
 }
 
-export default connect(ContactForm);
+export default connect(null, {ContactForm});
