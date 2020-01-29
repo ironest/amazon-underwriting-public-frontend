@@ -1,32 +1,40 @@
 import React, {Component} from "react";
-import { Field, reduxForm} from "redux-form";
+
 
 class ContactForm extends Component {
+    state = {
+        name: "",
+        subject: "",
+        message: ""
+    }
+
+    onFormSubmit = (event) => {
+        event.preventDefault();
+        const {name, subject, message} = event.target;
+        this.setState({name, subject, message});
+    }
+
     render() {
+        // const {name, subject, message} = this.state;
+
         return (
-            <form>
+            <form onSubmit={this.onFormSubmit} >
             <div>
                 <label>Name</label>
-                <div>
-                    <Field name="name" type="text" component="input" />
-                </div>
+                <input name="name" type="text" />
             </div>
             <div>
                 <label>Subject</label>
-                <div>
-                    <Field name="subject" type="text" component="input" />
-                </div>
+                <input name="subject" type="text" />
             </div>
             <div>
                 <label>Message</label>
-                <div>
-                    <Field name="message" type="text" component="input" />
-                </div>
+                <input name="message" type="text" />
             </div>
-            <input type="submit" value="Send Message" />
+            <input type="submit" value="Submit" />
             </form>
         )
     }
 }
 
-export default connect(null, {ContactForm});
+export default ContactForm;
