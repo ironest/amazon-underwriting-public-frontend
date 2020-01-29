@@ -11,6 +11,12 @@ class NavBar extends Component {
                 <Link to="/childcare">
                     <button>Childcare</button>
                 </Link>
+                <Link to="/homebasedbusinesses">
+                    <button>Home-based Businesses</button>
+                </Link>
+                <Link to="/personalaccident">
+                    <button>Personal Accident</button>
+                </Link>
             </div>
         )
     }

@@ -25,7 +25,7 @@ componentDidMount(){
         let {pages} = this.state;
         const {pageSelection} = this.props;
 
-        console.log(pageSelection);
+        // console.log(pageSelection);
         
 
         pages = pages.filter((item) => {

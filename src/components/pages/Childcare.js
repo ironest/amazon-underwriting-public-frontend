@@ -1,11 +1,16 @@
 import React, { Component } from "react";
 import DocumentBox from "./../DocumentBox";
 
+
 class Childcare extends Component {
+
+
     render() {
+        console.log(this.props.info);
+        const info = this.props.info;
         return (
             <>
-                        <DocumentBox pageSelection="Childcare" />
+             <DocumentBox pageSelection="Childcare" />
                 <div className="row" >
                     <div className="container" >
                         <h1>Childcare</h1>
@@ -80,7 +85,10 @@ class Childcare extends Component {
                         <h2>For more information</h2>
                         <p>For more information contact us today:</p>
                         <p>T: (02) 9357 1798</p>
+
                         <p>E: gida@amazonunderwriting.com.au</p>
+                        <p>{ info && info.email} </p>
+                        <p>{info && info.tel} </p>
                     </div>              
                 </div>
             </>

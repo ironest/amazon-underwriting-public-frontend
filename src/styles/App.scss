@@ -48,6 +48,43 @@
 
 }
 
+.info-row {
+
+  background-color: mediumpurple;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .container {
+    min-width: 325px;
+    padding: 0 25px;
+    max-width: 60%;
+    margin: 60px auto;
+  
+    h1 {
+      text-align: center;
+      font-weight: 700;
+      line-height: 50px;
+      font-size: 36px;
+    }
+    
+    h2 {
+      text-align: center;
+      font-weight: 600;
+      line-height: 40px;
+      font-size: 30px;
+    }
+    
+    p, ul li {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+}
+
 .carousel {
     border: 3px ridge black;
     background-color: whitesmoke;
