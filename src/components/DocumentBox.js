@@ -41,7 +41,7 @@ componentDidMount(){
                                 return(
                                     
                                     // <li key={page.name}>{page.name}
-                                        <ul>
+                                        <ul className="dot-point-test">
                                         {
                                             page.sections.map((section) => {
                                             return (

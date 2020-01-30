@@ -18,7 +18,6 @@ class App extends Component {
     
         axios.get("http://localhost:3000/info")
         .then(response => {
-            // console.log(response)
             const { footer_info, childcare_info, hbb_info, accident_info, contact_info } = response.data;
             this.setState( {footer_info, childcare_info, hbb_info, accident_info, contact_info} )
         })

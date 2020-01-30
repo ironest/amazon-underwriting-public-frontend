@@ -10,25 +10,9 @@ class Footer extends Component {
         info: []
     }
 
-    // componentDidMount(){
-
-    //     axios.get("http://localhost:3000/info")
-    //     .then(response => {
-    //         console.log(response)
-    //         this.setState( {info: response.data.childcare_info} )
-    //     })
-    //     .catch(error => {
-    //         console.log(error);
-    //     });
-    
-    // }
-
 
     render() {
 
-        // let {info} = this.state;
-        // // const {infoTest} = this.state;
-        // console.log(info);
         console.log(this.props.info);
 
         return(

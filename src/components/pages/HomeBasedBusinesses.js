@@ -32,8 +32,7 @@ class HomeBasedBusinesses extends Component {
 
                 <div className="row" >
                     <div className="container">
-                        
-                        
+
                             <p><strong>In addition the policy covers:</strong></p>
                             <ul>
                                 <li>Business Stock and/or Merchandise</li>
@@ -42,16 +41,21 @@ class HomeBasedBusinesses extends Component {
                                 <li>Machinery Breakdown (option)</li>
                                 <li>Domestic Legal Liability</li>
                                 <li>Individual Personal Accident and Sickness</li>
-                                
-                                    <p>Important if they rely on their business income and were unable to work due to an accident and/or sickness.</p>
-                                    <p>Cover</p>
+                                <p>Important if they rely on their business income and were unable to work due to an accident and/or sickness.</p>
                                     <ul>
+                                    <p>Cover</p>
                                         <li>Weekly benefits for temporary disablement due to accident, injury or sickness</li>
                                         <li>Lump sum benefits due to death or permanent disability from accidental injury</li>
                                     </ul>
                                 </ul>
+                                </div>
+
+
+                                
+
+
+
                         
-                    </div>
                 </div>
                 <div className="row">
                     <div className="container">
@@ -66,14 +70,17 @@ class HomeBasedBusinesses extends Component {
 
                 <div className="row">
                     <div className="container">
-                        <h2>Underwriting Security</h2>
-                        <p>Certain underwriters at Lloyd’s.</p>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="container">
-                        <h2>Claims Management</h2>
-                        <p>All claims are managed locally.</p>
+                        <div className="cont2">
+                            <div className="flex-left">
+                                <h2>Underwriting Security</h2>
+                                <p>Certain underwriters at Lloyd’s.</p>
+                            </div>
+                            <div className="flex-right">
+                                <h2>Claims Management</h2>
+                                <p>All claims are managed locally.</p>
+                            </div>
+                    
+                        </div>
                     </div>
                 </div>
                     

@@ -66,18 +66,20 @@ class Childcare extends Component {
                     </div>              
                 </div>
 
-                <div className="row" >
-                    <div className="container" >
-                        <h2>Underwriting Security</h2>
-                        <p>Certain underwriters at Lloyd’s.</p>
-                    </div>              
-                </div>
-
-                <div className="row" >
-                    <div className="container" >
-                        <h2>Claims Management</h2>
-                        <p>All claims are managed locally through award winning claims managers Gallagher Bassett.</p>
-                    </div>              
+                <div className="row">
+                    <div className="container">
+                        <div className="cont2">
+                            <div className="flex-left">
+                                <h2>Underwriting Security</h2>
+                                <p>Certain underwriters at Lloyd’s.</p>
+                            </div>
+                            <div className="flex-right">
+                                <h2>Claims Management</h2>
+                                <p>All claims are managed locally.</p>
+                            </div>
+                    
+                        </div>
+                    </div>
                 </div>
 
                 <div className="row" >

@@ -7,7 +7,7 @@ class PersonalAccident extends Component {
         const info = this.props.info;
         return (
             <>
-                <DocumentBox pageSelection="HomeBiz" />
+                <DocumentBox pageSelection="Personal Accident" />
                 <div className="row" >
                     <div className="container">
                         <h2>Personal Accident and Sickness</h2>
@@ -71,6 +71,22 @@ class PersonalAccident extends Component {
                         <p><strong>DIRECTORS PERSONAL ACCIDENT AND/OR SICKNESS</strong></p>
                         <p>Designed to cover Directors of both Public and Private Companies where they are able to opt out, or be excluded from, cover under their state's Workers' Compensation policy. </p>
                         <p>Cover includes death & capital benefits, weekly accident and sickness benefits and medical expenses.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="container">
+                        <div className="cont2">
+                            <div className="flex-left">
+                                <h2>Underwriting Security</h2>
+                                <p>Certain underwriters at Lloyd’s.</p>
+                            </div>
+                            <div className="flex-right">
+                                <h2>Claims Management</h2>
+                                <p>All claims are managed locally.</p>
+                            </div>
+                    
                         </div>
                     </div>
                 </div>
