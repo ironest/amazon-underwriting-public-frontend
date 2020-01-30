@@ -44,6 +44,20 @@
       font-size: 18px;
       line-height: 30px;
     }
+    .cont2 {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      .flex-left {
+        // justify-self: flex-start;
+        width: 50%;
+      }
+      .flex-right {
+        // justify-self: flex-end;
+        width: 50%;
+      }
+    }
   }
 
 }
@@ -104,8 +118,13 @@
   right: 0;
   margin-right: 10px;
   border: 2px ridge black;
-  background-color: slategrey;
+  background-color: whitesmoke;
   padding: 5px;
+  box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.75);
+
+  .dot-point-test {
+    list-style: none;
+  }
 }
 .document-box ul {
   text-align: left;
