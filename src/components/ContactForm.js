@@ -19,18 +19,18 @@ class ContactForm extends Component {
 
         return (
             <form  onSubmit={this.onFormSubmit} >
-            <div>
-            <div >
+            <div className="contact-container">
+            <div className="first-div">
                 <label>Name</label>
                 <input name="name" type="text" />
             </div>
-            <div>
+            <div className="first-div" >
                 <label>Subject</label>
                 <input name="subject" type="text" />
             </div>
-            <div>
+            <div className="third-div" >
                 <label>Message</label>
-                <input name="message" type="text" />
+                <textarea name="message" type="text" size="100" />
             </div>
             <input type="submit" value="Submit" />
             </div>
