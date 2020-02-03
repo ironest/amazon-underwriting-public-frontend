@@ -1,35 +1,27 @@
+
+/* Add a background color and some padding around the form */
 form {
     display: flex;
-    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 
     .contact-container {
-        text-align: center;
         width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-left: 2rem;
-        margin-top: 5rem;
-
-    //     .first-div {
-    //         text-align: center;
-    //     }
-
-    //     .third-div {
-    //         text-align: center;
-
-    //     }
-
-    //     .message-input {
-    //         width: 50%;
-    //         min-height: 200px;
-    //     }
+        // border: 2px ridge black;
+        // box-shadow: 10px 10px 0px -5px rgba(0,0,0,0.75);
+        padding: 5%;
     }
 }
 
 /* Contact form styling */
-input[type=text], select, textarea {
-    width: 60%; /* Full width */
+input, select, textarea {
+    width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
@@ -40,7 +32,8 @@ input[type=text], select, textarea {
   }
   
   /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+  button[type=submit] {
+    width: 50%;
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -50,13 +43,8 @@ input[type=text], select, textarea {
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+  button[type=submit]:hover {
     background-color: #45a049;
   }
   
-  /* Add a background color and some padding around the form */
-  .formcontainer {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+  
