@@ -4,6 +4,9 @@
 }
 
 .nav-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #1c2938;
   height: 50px;
 }
@@ -12,4 +15,14 @@
   background-color: #1c2938;
   height: 50px;
   color: whitesmoke;
+  // cursor: pointer;
+
+  .right:hover {
+    background-color: red;
+  }
+  
 }
+
+// button[type=button] :hover {
+//   background-color: grey;
+// }
