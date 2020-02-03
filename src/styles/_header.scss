@@ -17,10 +17,9 @@
   color: whitesmoke;
   // cursor: pointer;
 
-  .right:hover {
+  &:hover {
     background-color: red;
   }
-  
 }
 
 // button[type=button] :hover {
