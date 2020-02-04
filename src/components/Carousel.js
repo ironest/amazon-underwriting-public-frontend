@@ -13,16 +13,28 @@ export default () => (
         <p>example text</p>
         <a href="http://www.google.com" target="_blank" rel="noopener noreferrer" >Link Example</a>
       </div>
-      {/* <img src={process.env.PUBLIC_URL + '/childcare.jfif'} alt="" />  */}
     </div>
-    <div style={{backgroundColor:"blue"}}>
+    <div className="image-test">
+      <img src={"/new-home.jpg"} alt="home-based" />
+      <div className="text-blocl" >
+      <h2>Home-based Businesses</h2>
+      <p>example text</p>
+      <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Link e.g.</a>
+      </div>
+    </div>
+    <div className="image-test">
+      <img src={"/castle (2).jfif"} alt="home-based" />
+      <div className="text-block">
+      <h2>Is your castle protected?</h2>
+      <p> Underinsurance is already a real problem for regular domestic householders let alone if they operate a business from home! Underinsurance could become no insurance at all.</p>
+      <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Link e.g.</a>
+      </div>
+    </div>
+
+    {/* <div style={{backgroundColor:"blue"}}>
       <div style={{color:"blue"}}>Hello</div>
       <p className="legend">Custom Legend</p>
-    </div>
-    <div>
-
-      <p className="legend">Legend 2</p>
-    </div>
+    </div> */}
   </Carousel>
  </div>
 );

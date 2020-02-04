@@ -4,14 +4,22 @@ import { Link } from "react-router-dom";
 class NavBar extends Component {
     render() {
         return (
+            <>
             <div className="nav-div" >
-                <a href="/">
+                <Link to="/">
                     HomePage
-                </a>
+                </Link>
                 <Link to="/Childcare">
-                    <button>Childcare</button>
+                    Childcare
+                </Link>
+                <Link to="/homebasedbusinesses">
+                    Home-based Businesses
+                </Link>
+                <Link to="/personalaccident">
+                    Personal Accident
                 </Link>
             </div>
+            </>
         )
     }
 }
