@@ -1,10 +1,10 @@
 .banner-div {
-  background-color: #b61615;
+  background-color: $red-bar-color;
   height: 50px;
 }
 
 .nav-div {
-  background-color: #1c2938;
+  background-color: $blue-bar-color;
   height: fit-content;
 }
 
@@ -26,7 +26,7 @@ a:hover, a:active {
 }
           
 .nav-div Link {
-  background-color: #1c2938;
+  background-color: $blue-bar-color;
   height: 50px;
   color: whitesmoke;
 }
