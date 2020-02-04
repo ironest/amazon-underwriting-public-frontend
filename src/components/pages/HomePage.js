@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import axios from "axios";
 
-import NewsCarousel from "./../Carousel";
+import NewsCarousel from "./../NewsCarousel";
 
 class HomePage extends Component {
     render() {
