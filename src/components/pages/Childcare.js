@@ -11,9 +11,12 @@ class Childcare extends Component {
             <>
              <DocumentBox pageSelection="Childcare" />
                 <div className="row" >
-                    <img style={{width: "250px", position: "relative", marginTop: "50px", left: "1rem"}} src={"/childcare.jfif"} alt="" />
                     <div className="container" >
                         <h1>Childcare</h1>
+                        <div className="row-pos">
+                        <div>
+                    <img style={{width: "250px"}} src={"/childcare.jfif"} alt="" />
+                    </div>
                         <div className="">
                         <p>
                             Amazon Underwriting offers a childcare insurance package developed by Gida Irving
@@ -24,13 +27,14 @@ class Childcare extends Component {
                             offers some unique and important coverage features truly tailored for the Childcare Sector.
                         </p>
                         </div>
+                        </div>
                     </div>              
                 </div>
 
                 <div className="row" >
-                        <img style={{width: "250px", position: "relative", marginTop: "1rem", right: "1rem"}} src="/new-home.jpg" alt="" />
                     <div className="container" >
                         <h2>Insurance Package</h2>
+                    
                         <p>The Childcare Insurance Package comprises:</p>
                         <ul>
                             <li>

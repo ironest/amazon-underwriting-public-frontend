@@ -11,9 +11,14 @@ class HomeBasedBusinesses extends Component {
                 <div className="row" >
                     <div className="container">
                         <h2>Home Based Businesses</h2>
-                        <div className="test-fix">
-                            <p>HomeBiz Insurance provides a one stop-shop public and products liability, property and personal accident insurance solution for clients that operate a business from the home they live in.</p>
+                        <div className="row-pos">
+                            <div className="test-fix">
+                                <p>HomeBiz Insurance provides a one stop-shop public and products liability, property and personal accident insurance solution for clients that operate a business from the home they live in.</p>
+                            </div>
+                    <div>
+                        <img style={{width: "250px"}} src="/new-home.jpg" alt="" />
                         </div>
+                    </div>
                     </div>
                 </div>
                 <div className="row" >
