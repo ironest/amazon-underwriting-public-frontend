@@ -5,9 +5,9 @@ class NavBar extends Component {
     render() {
         return (
             <div className="nav-div" >
-                <Link to="/">
-                    <button>HomePage</button>
-                </Link>
+                <a href="/">
+                    HomePage
+                </a>
                 <Link to="/Childcare">
                     <button>Childcare</button>
                 </Link>

@@ -5,9 +5,6 @@ import { Carousel } from "react-responsive-carousel";
 export default () => (
     <div className="carousel" >
   <Carousel dynamicHeight={false} infiniteLoop autoPlay={false} swipeable={true} stopOnHover={true} emulateTouch showThumbs={false} >
-    {/* <div >
-      <img style={{backgroundImage: "url(/public/childcare)"}} />
-    </div> */}
     
     <div className="image-test" >
       <img src={"/childcare.jfif"} alt="" />
@@ -16,7 +13,6 @@ export default () => (
         <p>example text</p>
         <a href="http://www.google.com" target="_blank" rel="noopener noreferrer" >Link Example</a>
       </div>
-      {/* <p style={{position: "fixed"}}>Childcare Newsletter</p> */}
       {/* <img src={process.env.PUBLIC_URL + '/childcare.jfif'} alt="" />  */}
     </div>
     <div style={{backgroundColor:"blue"}}>
