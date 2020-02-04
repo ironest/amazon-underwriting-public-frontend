@@ -88,11 +88,8 @@ class HomeBasedBusinesses extends Component {
                 <div className="container" >
                     <h2>For more information</h2>
                     <p>For more information contact us today:</p>
-                    <p>T: (02) 9357 1798</p>
-
-                    <p>E: gida@amazonunderwriting.com.au</p>
-                    <p>{ info && info.email} </p>
-                    <p>{info && info.tel} </p>
+                    <p>E: { info && info.email} </p>
+                    <p>T: {info && info.tel} </p>
                 </div>              
             </div>
                 

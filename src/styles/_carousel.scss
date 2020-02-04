@@ -1,0 +1,66 @@
+/* Carousel section */
+
+.carousel {
+    /* height: 500px; */
+    width: 100%;
+    margin: auto;
+}
+
+/* .carousel .slider-wrapper {
+    height: 150px;
+    width: 100%;
+    height: 500px; 
+} */
+
+.slider-container {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel .slide{ 
+    background-color: none; 
+    text-align: start;
+}
+
+
+.image-fix {
+    border: 2px ridge black;
+    color: black;
+    // background-color: whitesmoke;
+    // padding-left: 20px;
+    // padding-right: 20px;
+    p, h2, a {
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: whitesmoke;
+        opacity: 0.7;
+    }
+    h2 {
+        position: absolute;
+        top: 100px;
+    }
+    p {
+        position: absolute;
+        top: 150px;
+        width: 65%;
+    }
+
+    a {
+        position: absolute;
+        top: 175px;
+        right: 5%;
+        color: black;
+        // text-align: end;
+    }
+}
+
+/* Code that works to place text over images */
+/* .text-block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  } */

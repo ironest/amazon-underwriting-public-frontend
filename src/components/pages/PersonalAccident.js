@@ -11,11 +11,18 @@ class PersonalAccident extends Component {
                 <div className="row" >
                     <div className="container">
                         <h2>Personal Accident and Sickness</h2>
+                    {/* <div className="first-row" > */}
+                    <div className="row-pos">
+                        <div>
+                <img style={{width: "250px", /*position: "relative",  marginTop: "1rem", left: "1rem" */}} src="/per_accident.jfif" alt="" />
+                </div>
                         <div className="test-fix">
                             <p>Amazon Underwriting offers a range of Personal Accident and Sickness products, which can be tailored specifically for your client. All managed by Toni Watson, who has an extensive background in the insurance industry working in both broking and underwriting, and over 17 years in the accident & health market.</p>
                         </div>
                     </div>
-                </div>
+                    </div>
+                    </div>
+                {/* </div> */}
 
                 <div className="row">
                     <div className="container">
@@ -91,17 +98,14 @@ class PersonalAccident extends Component {
                     </div>
                 </div>
                     
-                    <div className="info-row" >
-                    <div className="container" >
-                        <h2>For more information</h2>
-                        <p>For more information contact us today:</p>
-                        <p>T: (02) 9357 1798</p>
-
-                        <p>E: gida@amazonunderwriting.com.au</p>
-                        <p>{ info && info.email} </p>
-                        <p>{info && info.tel} </p>
-                    </div>              
-                </div>
+                <div className="info-row" >
+                <div className="container" >
+                    <h2>For more information</h2>
+                    <p>For more information contact us today:</p>
+                    <p>E: { info && info.email} </p>
+                    <p>T: {info && info.tel} </p>
+                </div>              
+            </div>
             </>
         )
     }

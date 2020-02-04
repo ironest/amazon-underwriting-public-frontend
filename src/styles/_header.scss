@@ -5,10 +5,27 @@
 
 .nav-div {
   background-color: #1c2938;
-  height: 50px;
+  height: fit-content;
 }
 
-.nav-div button {
+.nav-div {
+  a:link, a:visited {
+  // background-color: white;
+  color: whitesmoke;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #496b8faf;
+  color: white;
+}
+}
+          
+.nav-div Link {
   background-color: #1c2938;
   height: 50px;
   color: whitesmoke;

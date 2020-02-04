@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Childcare from "./pages/Childcare";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import HomeBasedBusinesses from "./pages/HomeBasedBusinesses"
 import PersonalAccident from "./pages/PersonalAccident";
 import "normalize.css";
@@ -14,6 +15,7 @@ class App extends Component {
     state = {
         info: {footer_info: null}
     }
+    
     componentDidMount(){
     
         axios.get("http://localhost:3000/info")
