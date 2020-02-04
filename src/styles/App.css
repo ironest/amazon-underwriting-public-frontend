@@ -41,11 +41,70 @@ h1 {
     color: whitesmoke;
 }
 
+
+/* Carousel section */
+
+.carousel {
+    /* height: 500px; */
+    width: 500px;
+    margin: auto;
+}
 .carousel .slider-wrapper {
     /* height: 150px; */
-    width: 500px;
+    /* width: 100%; */
+    /* height: 500px; */
+
+    
 }
 
+.slider-container {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel .slide{ 
+    background-color: none; 
+    text-align: start;
+}
+
+
+
+.image-test h2 {
+    position: absolute;
+    color: black;
+    top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.image-test p{
+    position: absolute;
+    color: black;
+    top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.image-test a {
+    position: absolute;
+    color: black;
+    top: 200px;
+    text-align: end;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* Code that works to place text over images */
+/* .text-block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
 
 
 .footer {

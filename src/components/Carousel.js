@@ -1,31 +1,32 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
+// import Photo from "./../../public/childcare";
 
 export default () => (
     <div className="carousel" >
-  <Carousel dynamicHeight={true} infiniteLoop autoPlay swipeable={true} stopOnHover={true} emulateTouch showThumbs={false} >
+  <Carousel dynamicHeight={false} infiniteLoop autoPlay={false} swipeable={true} stopOnHover={true} emulateTouch showThumbs={false} >
+    {/* <div >
+      <img style={{backgroundImage: "url(/public/childcare)"}} />
+    </div> */}
+    
+    <div className="image-test" >
+      <img src={"/childcare.jfif"} alt="" />
+      <div className="text-block" >
+        <h2>Example heading</h2>
+        <p>example text</p>
+        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer" >Link Example</a>
+      </div>
+      {/* <p style={{position: "fixed"}}>Childcare Newsletter</p> */}
+      {/* <img src={process.env.PUBLIC_URL + '/childcare.jfif'} alt="" />  */}
+    </div>
     <div style={{backgroundColor:"blue"}}>
-      {/* <img src="http://lorempixel.com/output/cats-q-c-640-480-1.jpg" alt="" /> */}
-      {/* <p className="legend">Legend 1</p> */}
       <div style={{color:"blue"}}>Hello</div>
       <p className="legend">Custom Legend</p>
     </div>
     <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-2.jpg" alt="" />
+
       <p className="legend">Legend 2</p>
     </div>
-    <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-3.jpg" alt="" />
-      <p className="legend">Legend 3</p>
-    </div>
-    <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-4.jpg" alt="" />
-      <p className="legend">Legend 4</p>
-    </div>
-    <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-5.jpg" alt="" />
-      <p className="legend">Legend 5</p>
-    </div>
   </Carousel>
-  </div>
+ </div>
 );
