@@ -25,6 +25,24 @@
     padding: 0 25px;
     max-width: 60%;
     margin: 60px auto;
+    
+    // &:nth-child(1) {
+    //   margin: 5%;
+    // }
+    
+    .row-pos {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      img {
+        margin-right: 1rem;
+      }
+      p {
+        margin-left: 1rem;
+      }
+    }
   
     h1 {
       text-align: center;
@@ -88,7 +106,7 @@
 
 .document-box {
   height: fit-content;
-  width: 18%;
+  width: 15%;
   // max-width: calc((100vw - 800)/2);
   min-width: 10%;
   // (screen size - 850px)/2
@@ -97,14 +115,19 @@
   right: 0;
   margin-right: 10px;
   border: 2px ridge black;
-  background-color: slategrey;
+  background-color: whitesmoke;
+  box-shadow: transparent;
   padding: 5px;
 }
 .document-box ul {
   text-align: left;
   padding-inline-start: 15px;
-}
-
-.text-fix {
-  margin-right: 10%;
+  
+  li:not(:last-child):after{
+    content:"";
+    display: block;
+    margin: 0.5em 0;
+    border-bottom: 1.5px ridge black;
+    
+  }
 }
