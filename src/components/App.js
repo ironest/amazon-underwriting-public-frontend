@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Childcare from "./pages/Childcare";
+import ContactPage from "./pages/ContactPage"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import HomeBasedBusinesses from "./pages/HomeBasedBusinesses"
 import PersonalAccident from "./pages/PersonalAccident";
@@ -58,6 +59,8 @@ class App extends Component {
                             return <PersonalAccident {...props} info={accident_info} />
                         }}
                     />
+                    <Route exact path="/contact" component={ContactPage} />
+
                 </div>
                 <Footer info={footer_info}/>
             </BrowserRouter>

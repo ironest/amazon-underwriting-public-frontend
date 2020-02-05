@@ -6,13 +6,16 @@
 .nav-div {
   background-color: $blue-bar-color;
   height: fit-content;
+  padding: 10px;
+
+    .right {
+      float: right;
+    }
 }
 
 .nav-div {
   a:link, a:visited {
-  // background-color: white;
   color: whitesmoke;
-  border: 2px solid black;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;

@@ -17,6 +17,9 @@ class NavBar extends Component {
                 <Link to="/personalaccident">
                     Personal Accident
                 </Link>
+                <Link className="right" to="/contact">
+                    Contact Us
+                </Link>
             </div>
             </>
         )
