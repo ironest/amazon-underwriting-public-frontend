@@ -37,7 +37,9 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <div className="content">
-                    <div className="banner-div"></div>
+                    <div className="banner-div">
+                        <img src=".//logo.png" alt="logo"/>
+                    </div>
                     <NavBar />
                     <Route exact path="/" component={HomePage} />
                     <Route 
