@@ -1,5 +1,7 @@
 import React, { Component} from "react";
 import axios from "axios";
+
+
 class DocumentBox extends Component {
 state = {
     pages: []
@@ -40,7 +42,7 @@ componentDidMount(){
                                 return(
                                     
                                     // <li key={page.name}>{page.name}
-                                        <ul>
+                                        <ul className="dot-point-test">
                                         {
                                             page.sections.map((section) => {
                                             return (

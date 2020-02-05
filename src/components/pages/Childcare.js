@@ -13,7 +13,11 @@ class Childcare extends Component {
                 <div className="row" >
                     <div className="container" >
                         <h1>Childcare</h1>
-                        <div className="text-fix">
+                        <div className="row-pos">
+                        <div>
+                    <img style={{width: "250px"}} src={"/childcare.jfif"} alt="" />
+                    </div>
+                        <div className="">
                         <p>
                             Amazon Underwriting offers a childcare insurance package developed by Gida Irving
                             who has many years’ experience working in the childcare sector and the insurance industry.
@@ -23,12 +27,14 @@ class Childcare extends Component {
                             offers some unique and important coverage features truly tailored for the Childcare Sector.
                         </p>
                         </div>
+                        </div>
                     </div>              
                 </div>
 
                 <div className="row" >
                     <div className="container" >
                         <h2>Insurance Package</h2>
+                    
                         <p>The Childcare Insurance Package comprises:</p>
                         <ul>
                             <li>
@@ -65,31 +71,30 @@ class Childcare extends Component {
                     </div>              
                 </div>
 
-                <div className="row" >
-                    <div className="container" >
-                        <h2>Underwriting Security</h2>
-                        <p>Certain underwriters at Lloyd’s.</p>
-                    </div>              
+                <div className="row">
+                    <div className="container">
+                        <div className="cont2">
+                            <div className="flex-left">
+                                <h2>Underwriting Security</h2>
+                                <p>Certain underwriters at Lloyd’s.</p>
+                            </div>
+                            <div className="flex-right">
+                                <h2>Claims Management</h2>
+                                <p>All claims are managed locally.</p>
+                            </div>
+                    
+                        </div>
+                    </div>
                 </div>
 
-                <div className="row" >
-                    <div className="container" >
-                        <h2>Claims Management</h2>
-                        <p>All claims are managed locally through award winning claims managers Gallagher Bassett.</p>
-                    </div>              
-                </div>
-
-                <div className="row" >
-                    <div className="container" >
-                        <h2>For more information</h2>
-                        <p>For more information contact us today:</p>
-                        <p>T: (02) 9357 1798</p>
-
-                        <p>E: gida@amazonunderwriting.com.au</p>
-                        <p>{ info && info.email} </p>
-                        <p>{info && info.tel} </p>
-                    </div>              
-                </div>
+                <div className="info-row" >
+                <div className="container" >
+                    <h2>For more information</h2>
+                    <p>For more information contact us today:</p>
+                    <p>E: { info && info.email} </p>
+                    <p>T: {info && info.tel} </p>
+                </div>              
+            </div>
             </>
         );
     }
