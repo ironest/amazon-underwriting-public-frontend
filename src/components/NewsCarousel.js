@@ -9,7 +9,7 @@ class NewsCarousel extends Component {
   }
 
   componentDidMount(){
-    axios.get("http://localhost:3000/news")
+    axios.get(`${process.env.REACT_APP_BASEURL}/news`)
     .then(response => {
         this.setState( {news: response.data} )
     })

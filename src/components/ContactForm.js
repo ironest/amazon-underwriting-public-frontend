@@ -26,7 +26,7 @@ class ContactForm extends Component {
             message: this.state.message
         }
         
-        axios.post('http://localhost:3000/contact', data)
+        axios.post(`${process.env.REACT_APP_BASEURL}/contact`, data)
         .then( res => {
             console.log(res);
             this.setState({ sent: true, flashMsg: res.data.message }, this.resetForm("Message Sent"))

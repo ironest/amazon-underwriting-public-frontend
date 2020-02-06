@@ -21,7 +21,7 @@ class App extends Component {
     
     componentDidMount(){
     
-        axios.get("http://localhost:3000/info")
+        axios.get(`${process.env.REACT_APP_BASEURL}/info`)
         .then(response => {
             const { footer_info, childcare_info, hbb_info, accident_info, contact_info } = response.data;
             this.setState( {footer_info, childcare_info, hbb_info, accident_info, contact_info} )
@@ -40,7 +40,7 @@ class App extends Component {
             <BrowserRouter>
                 <div className="content">
                     <div className="banner-div">
-                        <img src=".//logo.png" alt="logo"/>
+                        <img src="./logo.png" alt="logo"/>
                     </div>
                     <NavBar />
                     <Route exact path="/" component={HomePage} />

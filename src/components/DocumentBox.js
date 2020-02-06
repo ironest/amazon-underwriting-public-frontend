@@ -10,7 +10,7 @@ state = {
 
 componentDidMount(){
 
-    axios.get("http://localhost:3000/pages")
+    axios.get(`${process.env.REACT_APP_BASEURL}/pages`)
     .then(response => {
         this.setState( {pages: response.data} )
     })
