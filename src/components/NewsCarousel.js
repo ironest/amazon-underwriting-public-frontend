@@ -30,7 +30,7 @@ class NewsCarousel extends Component {
           news &&
           <Carousel infiniteLoop autoPlay={true} swipeable={true} stopOnHover={true} emulateTouch showThumbs={false} >
             {
-              news.slice(0,3).map( (item, idx) => {
+              news.map( (item, idx) => {
                 return (
                   <div key={idx} style={{backgroundImage: `url(${item.image})`}} className="image-fix" >
                     <h2>{item.title}</h2>
