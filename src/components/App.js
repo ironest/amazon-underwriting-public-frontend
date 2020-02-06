@@ -2,10 +2,12 @@ import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Childcare from "./pages/Childcare";
-import ContactPage from "./pages/ContactPage"
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import HomeBasedBusinesses from "./pages/HomeBasedBusinesses"
 import PersonalAccident from "./pages/PersonalAccident";
+import AboutUs from "./pages/AboutUs";
+import ContactPage from "./pages/ContactPage";
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "normalize.css";
 import "./../styles/App.scss";
 import NavBar from "./NavBar";
@@ -61,6 +63,7 @@ class App extends Component {
                             return <PersonalAccident {...props} info={accident_info} />
                         }}
                     />
+                    <Route exact path="/aboutus" component={AboutUs} />
                     <Route exact path="/contact" component={ContactPage} />
 
                 </div>

@@ -28,7 +28,7 @@ class NewsCarousel extends Component {
 
         {
           news &&
-          <Carousel infiniteLoop autoPlay={true} swipeable={true} stopOnHover={true} emulateTouch showThumbs={false} >
+          <Carousel infiniteLoop autoPlay={true} swipeable={true} stopOnHover={true} emulateTouch={true} showThumbs={false} >
             {
               news.map( (item, idx) => {
                 return (
