@@ -7,8 +7,8 @@
 
 ### Links to GitHub repository
 
-* [Public frontend](https://github.com/Alkex1/amazon-underwriting-user-frontend)
-* [Admin frontend](https://github.com/Alkex1/amazon-underwriting-frontend)
+* [Public frontend](https://github.com/ironest/amazon-underwriting-public-frontend)
+* [Admin frontend](https://github.com/ironest/amazon-underwriting-admin-frontend)
 * [Backend](https://github.com/ironest/amazon-underwriting-backend)
 
 ## Intro
